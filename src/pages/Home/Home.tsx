@@ -54,7 +54,7 @@ const Home: React.FC = () => {
           Authorization: "Bearer 84fb3365d7d80d5540819f25270d4541df2c7440",
         },
       })
-      .then((response) => {
+      .then(() => {
         setNewTodoContent('');
         setNewTodoDescription('');
         getTodoList();
